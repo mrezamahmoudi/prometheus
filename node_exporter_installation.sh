@@ -1,4 +1,4 @@
-node-exporter-installation.sh
+#!/bin/bash
 
 export RELEASE="1.3.1"
 wget https://github.com/prometheus/node_exporter/releases/download/v$RELEASE/node_exporter-$RELEASE.linux-386.tar.gz
